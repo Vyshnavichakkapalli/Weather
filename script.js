@@ -6,7 +6,7 @@
 // Configuration
 const CONFIG = {
     // OpenWeatherMap API configuration
-    API_KEY: 'b168e37664078863d9cf5dcb3444cd88', // Replace with your actual API key
+    API_KEY: 'YOUR_API_KEY', // Replace with your actual API key
     API_BASE_URL: 'https://api.openweathermap.org/data/2.5/weather',
     API_UNITS: 'metric', // Celsius
     API_LANG: 'en',
@@ -290,3 +290,4 @@ if (typeof module !== 'undefined' && module.exports) {
         capitalizeWords
     };
 }
+
